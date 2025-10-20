@@ -28,4 +28,4 @@ messages = [HumanMessage(content="Tell me a funny programming joke!")]
 # Get response
 response = chat.invoke(messages)
 
-print("🤖 SmolLM3-3B:", response.content)
+print("SmolLM3-3B:", response.content)
