@@ -2,6 +2,7 @@ from langchain_huggingface import HuggingFaceEmbeddings  # For creating embeddin
 from sklearn.metrics.pairwise import cosine_similarity  # For measuring similarity
 import numpy as np  
 
+
 class SimpleEmbeddingQA:
     def __init__(self, statements, embedding_model_name="sentence-transformers/all-MiniLM-L6-v2"):
         
@@ -50,6 +51,7 @@ if __name__ == "__main__":
     qa = SimpleEmbeddingQA(statements)
     
     # Step 3: Get question from user (interactive!)
+    
     question = input("Enter your question: ").strip()  # Takes input from user
     if not question:
         question = "What is Python?"  # Default if empty
