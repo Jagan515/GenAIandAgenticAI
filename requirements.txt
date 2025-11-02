@@ -24,3 +24,8 @@ python-dotenv
 # Machine Learning Utilities
 numpy
 scikit-learn
+
+# deep learning 
+torch
+torchvision
+torchaudio
