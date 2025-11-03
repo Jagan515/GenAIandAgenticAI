@@ -25,3 +25,9 @@ chain= prompt1 | model | parser | prompt2 | model | parser
 
 response=chain.invoke({"topic":"Vector Database"})
 print(response)
+
+
+
+
+
+
